@@ -1,10 +1,7 @@
 package com.teachmeskills.lesson17.homework.hw1.exceptions;
 
-import java.time.format.DateTimeParseException;
-
-public class EmptyInputException extends DateTimeParseException {
-
-    public EmptyInputException(String message, CharSequence parsedData, int errorIndex) {
-        super(message, parsedData, errorIndex);
+class invalidDateFormatException extends Exception {
+    public invalidDateFormatException(String message, String input, int errorIndex) {
+        super(message + " Entered string: '" + input + "'. Error index: " + errorIndex);
     }
 }

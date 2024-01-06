@@ -2,6 +2,7 @@ package com.teachmeskills.lesson17.homework.hw0.runner;
 
 import com.teachmeskills.lesson17.homework.hw0.custom_exceptions.EmptyInputException;
 import com.teachmeskills.lesson17.homework.hw0.custom_exceptions.NumberTooLargeException;
+import com.teachmeskills.lesson17.homework.hw0.func_interface.ReverseFactorialInterface;
 
 import java.util.Scanner;
 
